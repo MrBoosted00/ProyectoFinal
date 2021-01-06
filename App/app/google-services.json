@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "689444492010",
+    "firebase_url": "https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "winedroid-ca058",
+    "storage_bucket": "winedroid-ca058.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689444492010:android:be7709d0443e68ad9bfd93",
+        "android_client_info": {
+          "package_name": "com.example.winedroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689444492010-8dna0bc3u4a0o4rdhbi7vlu1nth9heg5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.winedroid",
+            "certificate_hash": "e09f4c26012a90865b420ee611fd8ca6241a2ba7"
+          }
+        },
+        {
+          "client_id": "689444492010-2uiu8teu95mdjrvah0bqhdbbocn9rhiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlBcc3RS6t_7Zfrt9r-zgfBhB__2GmiuE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689444492010-2uiu8teu95mdjrvah0bqhdbbocn9rhiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

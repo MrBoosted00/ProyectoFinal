@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtName"
+        style="@style/viewCustom"
+        android:backgroundTint="#5E2129"
+        android:hint="@string/firstName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtLastName"
+        style="@style/viewCustom"
+        android:backgroundTint="#5E2129"
+        android:hint="@string/lastName"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        style="@style/viewCustom"
+        android:backgroundTint="#5E2129"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtPassword"
+        style="@style/viewCustom"
+        android:backgroundTint="#5E2129"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtConfirmarPass"
+        style="@style/viewCustom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#5E2129"
+        android:hint="@string/confpass"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegisterRegistro"
+        style="@style/viewCustom"
+        android:background="@color/vino_tinto"
+        android:text="@string/createAct"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</LinearLayout>
