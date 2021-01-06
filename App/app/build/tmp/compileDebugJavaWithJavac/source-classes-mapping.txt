@@ -1,0 +1,4 @@
+com/example/winedroid/BuildConfig.java
+ com.example.winedroid.BuildConfig
+com/example/winedroid/ui/perfil/Usuario.java
+ com.example.winedroid.ui.perfil.Usuario
