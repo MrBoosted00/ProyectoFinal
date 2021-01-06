@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Winedroid</string>
+    <string name="frase_login">Bienvenido a Winedroid</string>
+    <string name="frase_splash">Diseñado por Christian Román</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_register">Registro</string>
+    <string name="email">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="forgotPassword">¿Olvidaste tu contraseña?</string>
+    <string name="firstName">Nombre</string>
+    <string name="lastName">Apellido</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="createAct">Crear cuenta</string>
+    <string name="confpass">Confirmar Contraseña</string>
+    <string name="recuPassFrase">Introduzca su email, se le enviara un correo con las instrucciones para cambiar su contraseña</string>
+    <string name="enviarEmail">Enviar Email</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_google">Entrar con google</string>
+    <string name="file_prefs">Datos.Sesion</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Buscar</string>
+    <string name="menu_profile">Perfil</string>
+    <string name="menu_scan">Escanear codigo</string>
+    <string name="menu_logout">Cerrar Sesion</string>
+    <string name="guardar">Guardar</string>
+
+    <string name="descripcion_predeterminada">Edita tu perfil para cambiar tu descripcion</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
