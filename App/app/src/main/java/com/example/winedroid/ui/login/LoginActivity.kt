@@ -94,7 +94,7 @@ class LoginActivity : AppCompatActivity() {
                     //Verificamos que la tarea se ejecutó correctamente
                         task ->
                     if (task.isSuccessful) {
-                        GuardarDatosUser()
+                        guardarDatosUser()
                         // Si se inició correctamente la sesión vamos a la vista Home de la aplicación
                         goHome() // Creamos nuestro método en la parte de abajo
                     } else {
@@ -108,7 +108,6 @@ class LoginActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Introduzca los campos", Toast.LENGTH_SHORT).show()
         }
-
     }
 
     //Inicio de session mediante google client
@@ -128,8 +127,6 @@ class LoginActivity : AppCompatActivity() {
         if (requestCode == GOOGLE_SIGN_IN && resultCode == Activity.RESULT_OK) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)
             try {
-
-
                 val account = task.getResult(ApiException::class.java)
                 if (account != null) {
                     val credencial = GoogleAuthProvider.getCredential(account.idToken, null)
@@ -141,7 +138,7 @@ class LoginActivity : AppCompatActivity() {
                             var nick = user.displayName
                             currentUserDb.child("nick").setValue(nick)
                             currentUserDb.child("descripcion").setValue(getString(R.string.descripcion_predeterminada))
-                            GuardarDatosUser()
+                            guardarDatosUser()
                             goHome()
                         } else {
                             Toast.makeText(
@@ -162,7 +159,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     //Metodo para guardar datos en preferencias y que se inicie sesion automaticamente
-    private fun GuardarDatosUser() {
+    private fun guardarDatosUser() {
         val prefs =
             getSharedPreferences(getString(R.string.file_prefs), Context.MODE_PRIVATE).edit()
         prefs.putString("email", email)
