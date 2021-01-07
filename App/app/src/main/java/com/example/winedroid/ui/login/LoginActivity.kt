@@ -50,7 +50,7 @@ class LoginActivity : AppCompatActivity() {
 
     /*Creamos un método para inicializar nuestros elementos del diseño y la autenticación de firebase*/
     private fun iniciarVista() {
-        if (ComprobarSession()) {
+        if (comprobarSession()) {
             goHome()
         } else {
             txtEmail = findViewById(R.id.txtEmail)
@@ -166,7 +166,7 @@ class LoginActivity : AppCompatActivity() {
         prefs.apply()
     }
     //Funcion para comprobar si existe una session iniciada
-    private fun ComprobarSession(): Boolean {
+    private fun comprobarSession(): Boolean {
         //Comprobamos si existe una sesion iniciada
         val prefs = getSharedPreferences(getString(R.string.file_prefs), Context.MODE_PRIVATE)
         val email = prefs.getString("email", null)
