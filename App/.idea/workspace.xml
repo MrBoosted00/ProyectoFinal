@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6314dc1f-255d-47bd-abed-90097846ad6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/login/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/login/LoginActivity.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +215,19 @@
       <option name="presentableId" value="Default" />
       <updated>1609516814876</updated>
     </task>
+    <task id="LOCAL-00001" summary="sda">
+      <created>1609979264220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609979264220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="sda" />
+    <option name="LAST_COMMIT_MESSAGE" value="sda" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609537350070">
@@ -258,17 +266,23 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609796292010" />
+    <state x="-1396" y="89" key="CommitChangelistDialog2" timestamp="1609979262188">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1396" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979262188" />
     <state width="439" height="466" key="DebuggerActiveHint" timestamp="1609865416427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609865416427" />
-    <state x="100" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609627619056">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1820" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609979420676">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1820" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979420676" />
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609627619056" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609866154494">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1609979419059">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979419059" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609866154494" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1609870400249">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -302,6 +316,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="281" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609870400247" />
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609979349446">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979349446" />
     <state x="616" y="242" key="run.anything.popup" timestamp="1609752299254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
