@@ -1,10 +1,6 @@
 package com.example.winedroid.ui.perfil
 
-import android.app.Activity
-import android.graphics.Bitmap
-import android.net.Uri
 import android.os.Bundle
-import android.provider.MediaStore
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -12,12 +8,9 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
-import com.bumptech.glide.Glide
 import com.example.winedroid.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.StorageReference
 import com.squareup.picasso.Picasso
 
 class PerfilFragment : Fragment() {
@@ -29,7 +22,7 @@ class PerfilFragment : Fragment() {
     private lateinit var btnGenerarQr: Button
     private lateinit var btnEditarPerfil: Button
     private lateinit var usuario : Usuario
-    private lateinit var imgUrl : String
+    private var imgUrl : String? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -40,7 +33,6 @@ class PerfilFragment : Fragment() {
         iniciarVista(root)
         return root
     }
-    var ref : StorageReference? = null
     fun iniciarVista(root: View) {
         ivFoto = root.findViewById(R.id.ivPerfilFoto)
         tvNick = root.findViewById(R.id.tvPerfilNick)
@@ -51,17 +43,16 @@ class PerfilFragment : Fragment() {
         database = FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
         dbReference = database.reference.child("Usuarios")
         val user = FirebaseAuth.getInstance().currentUser
-        val user_id = user?.uid
-        val referencia_user = dbReference.child(user_id!!)
-        referencia_user.addValueEventListener(object : ValueEventListener {
+        val userId = user?.uid
+        val refUser = dbReference.child(userId!!)
+        refUser.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 tvNick.text = snapshot.child("nick").value.toString()
                 tvDescipcion.text = snapshot.child("descripcion").value.toString()
                 imgUrl = snapshot.child("fotoPerfil").value.toString()
-                if(imgUrl != null){
+                if(!imgUrl.equals("null")){
                     Picasso.get().load(imgUrl).into(ivFoto)
                 }
-
             }
 
             override fun onCancelled(error: DatabaseError) {

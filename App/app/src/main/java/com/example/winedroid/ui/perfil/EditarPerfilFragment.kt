@@ -60,7 +60,9 @@ class EditarPerfilFragment : Fragment() {
         ivImagen = root.findViewById(R.id.ivEpFoto)
         etNick.setText(user?.getNick())
         etDescripcion.setText(user?.getDescripcion())
-        Picasso.get().load(user?.getFotoPerfil()).into(ivImagen)
+        if(!user?.getFotoPerfil().equals("null")){
+            Picasso.get().load(user?.getFotoPerfil()).into(ivImagen)
+        }
         database = FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
         //Reference que utilizaremos para escribir en la ruta especificada
         dbReference = database.getReference("Usuarios")

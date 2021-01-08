@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.Toast
 import com.example.winedroid.R
 import com.example.winedroid.ui.login.LoginActivity
+import com.example.winedroid.ui.perfil.Usuario
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
@@ -82,16 +83,18 @@ class RegisterActivity : AppCompatActivity() {
                     //vamos a dar de alta el usuario con el correo y la contraseña
                     auth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener(this) {
-                            val user: FirebaseUser = auth.currentUser!!
-                            val currentUserDb = dbReference.child(user.uid)
-                            currentUserDb.child("nick").setValue("$firstName $lastName")
-                            currentUserDb.child("descripcion").setValue(getString(R.string.descripcion_predeterminada))
-                            //Por último nos vamos a la vista home
-                            updateUserInfoAndGoHome()
+                            if(it.isSuccessful) {
+                                val user: FirebaseUser = auth.currentUser!!
+                                val currentUserDb = dbReference.child(user.uid)
+                                val usuario = Usuario("$firstName $lastName",getString(R.string.descripcion_predeterminada),getString(R.string.foto_predeterminada))
+                                currentUserDb.setValue(usuario)
+                                //Por último nos vamos a la vista home
+                                updateUserInfoAndGoHome()
+                            }
                         }.addOnFailureListener {
                             // si el registro falla se mostrara este mensaje
                             Toast.makeText(
-                                this, "Error en la autenticación.",
+                                this, "El email introducido ya esta siendo utilizado",
                                 Toast.LENGTH_SHORT
                             ).show()
                         }

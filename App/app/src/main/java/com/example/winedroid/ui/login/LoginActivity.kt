@@ -3,6 +3,7 @@ package com.example.winedroid.ui.login
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.text.TextUtils
 import android.view.View
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.winedroid.ui.forgotpass.ForgotPasswordActivity
 import com.example.winedroid.MainActivity
 import com.example.winedroid.R
+import com.example.winedroid.ui.perfil.Usuario
 import com.example.winedroid.ui.register.RegisterActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -23,6 +25,8 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import com.google.firebase.storage.FirebaseStorage
+import java.util.*
 import kotlin.properties.Delegates
 
 class LoginActivity : AppCompatActivity() {
@@ -39,8 +43,10 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var dbReference: DatabaseReference
     private lateinit var database: FirebaseDatabase
 
+
     //Creamos nuestra variable de autenticación firebase
     private lateinit var mAuth: FirebaseAuth
+    private lateinit var user : FirebaseUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -134,10 +140,10 @@ class LoginActivity : AppCompatActivity() {
                         if (task.isSuccessful) {
                             email = account.email ?: ""
                             val user: FirebaseUser = mAuth.currentUser!!
+                            val photo = user.photoUrl
                             val currentUserDb = dbReference.child(user.uid)
-                            var nick = user.displayName
-                            currentUserDb.child("nick").setValue(nick)
-                            currentUserDb.child("descripcion").setValue(getString(R.string.descripcion_predeterminada))
+                            val usuario = Usuario(user.displayName, getString(R.string.descripcion_predeterminada), photo.toString())
+                            currentUserDb.setValue(usuario)
                             guardarDatosUser()
                             goHome()
                         } else {
@@ -165,6 +171,7 @@ class LoginActivity : AppCompatActivity() {
         prefs.putString("email", email)
         prefs.apply()
     }
+
     //Funcion para comprobar si existe una session iniciada
     private fun comprobarSession(): Boolean {
         //Comprobamos si existe una sesion iniciada
