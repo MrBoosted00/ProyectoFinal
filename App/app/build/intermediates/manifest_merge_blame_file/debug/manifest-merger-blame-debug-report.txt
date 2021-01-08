@@ -6,13 +6,13 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml
+8-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml
+9-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:4:5-66
-11-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:4:22-64
+11-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:4:22-64
 12
 13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
 14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
@@ -27,55 +27,55 @@
 17-->[com.google.android.gms:play-services-measurement:18.0.0] C:\Users\demon\.gradle\caches\transforms-2\files-2.1\929ae557787b0222a3278956b303eb28\jetified-play-services-measurement-18.0.0\AndroidManifest.xml:26:22-107
 18
 19    <application
-19-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:5:5-26:19
+19-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:5:5-26:19
 20        android:allowBackup="true"
-20-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:6:9-35
+20-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.3.2] C:\Users\demon\.gradle\caches\transforms-2\files-2.1\54efdc568406ee0c52743841d3115f46\core-1.3.2\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:7:9-43
+24-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:7:9-43
 25        android:label="@string/app_name"
-25-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:8:9-41
+25-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:8:9-41
 26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:9:9-54
+26-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:9:9-54
 27        android:supportsRtl="true"
-27-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:10:9-35
+27-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:10:9-35
 28        android:testOnly="true"
 29        android:theme="@style/Theme.Winedroid" >
-29-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:11:9-47
+29-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:11:9-47
 30        <activity
-30-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:12:9-15:75
+30-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:12:9-15:75
 31            android:name="com.example.winedroid.MainActivity"
-31-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:13:13-41
+31-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:13:13-41
 32            android:label="@string/title_activity_main"
-32-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:14:13-56
+32-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:14:13-56
 33            android:theme="@style/Theme.Winedroid.NoActionBar" />
-33-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:15:13-63
+33-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:15:13-63
 34        <activity android:name="com.example.winedroid.ui.forgotpass.ForgotPasswordActivity" />
-34-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:16:9-74
-34-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:16:19-71
+34-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:16:9-74
+34-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:16:19-71
 35        <activity android:name="com.example.winedroid.ui.register.RegisterActivity" />
-35-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:17:9-66
-35-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:17:19-63
+35-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:17:9-66
+35-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:17:19-63
 36        <activity android:name="com.example.winedroid.SplashActivity" >
-36-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:18:9-24:20
-36-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:18:19-49
+36-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:18:9-24:20
+36-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:18:19-49
 37            <intent-filter>
-37-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:19:13-23:29
+37-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:19:13-23:29
 38                <action android:name="android.intent.action.MAIN" />
-38-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:20:17-69
-38-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:20:25-66
+38-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:20:17-69
+38-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:20:25-66
 39
 40                <category android:name="android.intent.category.LAUNCHER" />
-40-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:22:17-77
-40-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:22:27-74
+40-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:22:17-77
+40-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:22:27-74
 41            </intent-filter>
 42        </activity>
 43        <activity android:name="com.example.winedroid.ui.login.LoginActivity" />
-43-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:25:9-69
-43-->C:\Users\demon\Documents\Trabajo Final\App\app\src\main\AndroidManifest.xml:25:19-57
+43-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:25:9-69
+43-->C:\Users\demon\Documents\Trabajo Final\repo\App\app\src\main\AndroidManifest.xml:25:19-57
 44
 45        <service
 45-->[com.google.firebase:firebase-analytics-ktx:18.0.0] C:\Users\demon\.gradle\caches\transforms-2\files-2.1\6fb72f3be83171f6e91c4857b0a357dd\jetified-firebase-analytics-ktx-18.0.0\AndroidManifest.xml:8:9-14:19

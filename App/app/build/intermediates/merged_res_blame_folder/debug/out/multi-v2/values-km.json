@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
+            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-km\\values-km.xml",
             "map": [
                 {
                     "source": "C:\\Users\\demon\\.gradle\\caches\\transforms-2\\files-2.1\\56597795e6fe6c8e8d3755bfa63c917c\\jetified-play-services-base-17.1.0\\res\\values-km\\values.xml",

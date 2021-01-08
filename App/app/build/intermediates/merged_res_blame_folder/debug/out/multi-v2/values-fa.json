@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
+            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fa\\values-fa.xml",
             "map": [
                 {
                     "source": "C:\\Users\\demon\\.gradle\\caches\\transforms-2\\files-2.1\\100e0542de939527d4a20caac3ff975d\\navigation-ui-2.2.2\\res\\values-fa\\values-fa.xml",

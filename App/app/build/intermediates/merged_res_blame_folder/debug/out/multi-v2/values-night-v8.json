@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
                     "source": "C:\\Users\\demon\\.gradle\\caches\\transforms-2\\files-2.1\\04ce3dfc8b6178dfa069ea1b057db238\\appcompat-1.2.0\\res\\values-night-v8\\values-night-v8.xml",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2,16",
                         "startColumns": "4,4",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
+            "outputFile": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
                     "source": "C:\\Users\\demon\\.gradle\\caches\\transforms-2\\files-2.1\\54efdc568406ee0c52743841d3115f46\\core-1.3.2\\res\\values-uz\\values-uz.xml",

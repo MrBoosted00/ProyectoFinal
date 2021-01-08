@@ -2320,8 +2320,10 @@ string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string file_prefs
+string firebase_database_url
 string firstName
 string forgotPassword
+string foto_predeterminada
 string frase_login
 string frase_splash
 string gcm_defaultSenderId

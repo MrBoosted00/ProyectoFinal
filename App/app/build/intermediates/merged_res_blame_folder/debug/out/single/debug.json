@@ -1,214 +1,214 @@
 [
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_profile.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_profile.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_logout.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_logout.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_search.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_search.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_search.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_search.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_search.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_search.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_home.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_home.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_logout.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_logout.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_search.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_search.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_buscar.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\fragment_buscar.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_profile.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_profile.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_home.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_home.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_profile.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_profile.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_search.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_search.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_search.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_search.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_logout.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_logout.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\fragment_home.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_logout.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_logout.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_home.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_home.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_logout.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_logout.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_home.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_home.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_search.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_search.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_logout.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_logout.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_menu_profile.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_profile.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_home.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_home.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_home.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_home.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_gallery.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_home.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_home.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wine_87573.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\wine_87573.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_camera.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_profile.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_profile.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_buscar.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_buscar.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_logout.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_logout.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_profile.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_profile.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_home.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_home.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_home.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_home.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wine_87573.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\wine_87573.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_profile.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_profile.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_editar_perfil.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_editar_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_profile.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_profile.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_home.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_home.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\activity_splash.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_main.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_logout.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_logout.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_editar_perfil.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\fragment_editar_perfil.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_profile.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_profile.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_logout.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-mdpi\\ic_menu_logout.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_search.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_search.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_logout.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_logout.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_profile.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_profile.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_search.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_search.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_perfil.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\layout\\fragment_perfil.xml"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_search.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_search.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\activity_splash.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\App\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_home.xml"
     }
 ]
