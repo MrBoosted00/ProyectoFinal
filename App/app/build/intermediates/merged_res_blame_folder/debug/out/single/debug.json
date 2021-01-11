@@ -100,6 +100,14 @@
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_home.png"
     },
     {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_item.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_buscar_list.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_buscar_list.xml"
+    },
+    {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -110,10 +118,6 @@
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_buscar.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_buscar.xml"
     },
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_slideshow.xml.flat",
@@ -146,10 +150,6 @@
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_menu_profile.png.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-hdpi\\ic_menu_profile.png"
-    },
-    {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
