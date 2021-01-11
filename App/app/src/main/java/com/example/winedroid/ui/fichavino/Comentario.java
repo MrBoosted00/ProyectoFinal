@@ -1,6 +1,7 @@
 package com.example.winedroid.ui.fichavino;
 
 import java.io.Serializable;
+import java.util.Map;
 
 public class Comentario implements Serializable {
     String uid;

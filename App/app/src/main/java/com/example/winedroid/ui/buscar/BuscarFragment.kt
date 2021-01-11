@@ -1,5 +1,6 @@
 package com.example.winedroid.ui.buscar
 
+import android.content.ClipData.Item
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,8 +11,10 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.winedroid.R
+import com.example.winedroid.ui.fichavino.Comentario
 import com.example.winedroid.ui.fichavino.Vino
 import com.google.firebase.database.*
+
 
 /**
  * A fragment representing a list of Items.
@@ -53,14 +56,14 @@ class BuscarFragment : Fragment() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 snapshot.children.forEach {
 
-                    val id = it.value
                     val nickname = it.child("nombre").value.toString()
                     val vino = Vino(
                         nickname,
                         it.child("descripcion").value.toString(),
                         it.child("imagen").value.toString(),
                         it.child("valoracion").value.toString().toInt(),
-                        it.child("denominacion").value.toString()
+                        it.child("denominacion").value.toString(),
+                        it.child("listaComentarios").value as java.util.ArrayList<Comentario>?
                     )
                     lista_vinos.add(vino)
 
@@ -86,7 +89,7 @@ class BuscarFragment : Fragment() {
         return root
     }
 
-    /*private fun ver_contactos(lista_id: ArrayList<String>) {
+   /* private fun ver_comentarios(lista_id: ArrayList<String>) {
         for (id_lista in lista_id) {
             var refrencia = databaseReferenceUsuarios.child(id_lista.toString())
             refrencia.addValueEventListener(object : ValueEventListener {

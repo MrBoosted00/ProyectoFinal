@@ -22,6 +22,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import java.util.*
+import kotlin.collections.ArrayList
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -148,7 +149,7 @@ class CrearVinoFragment : Fragment() {
     private fun guardarVino(fotoUrl: String) {
         val currentUserDb = dbReference.child(etNombre.text.toString())
         comen = Comentario(FirebaseAuth.getInstance().currentUser!!.uid,etComentario.text.toString(),valoracion)
-        vino = Vino(etNombre.text.toString(), etDescripcion.text.toString(), fotoUrl,valoracion,etDenominacion.text.toString(),comen)
+        vino = Vino(etNombre.text.toString(), etDescripcion.text.toString(), fotoUrl,valoracion,etDenominacion.text.toString(),ArrayList())
         vino!!.añadirComentario(comen)
         currentUserDb.setValue(vino)
         Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()

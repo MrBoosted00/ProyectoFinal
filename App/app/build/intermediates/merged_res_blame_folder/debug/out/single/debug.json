@@ -44,12 +44,12 @@
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_search.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_logout.png.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_logout.png"
-    },
-    {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_logout.png.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_logout.png"
     },
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_logout.png.flat",
@@ -198,6 +198,14 @@
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_main_drawer.xml.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_ficha_vino.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_ficha_vino.xml"
+    },
+    {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_comentario.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_comentario.xml"
     },
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",

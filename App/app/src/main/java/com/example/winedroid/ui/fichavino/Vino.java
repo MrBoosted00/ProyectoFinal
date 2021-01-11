@@ -11,13 +11,13 @@ public class Vino implements Serializable {
     String denominacion;
     ArrayList<Comentario> listaComentarios = new ArrayList<Comentario>();
 
-    public Vino(String nombre, String descripcion, String imagen, Integer valoracion, String denominacion, Comentario c) {
+    public Vino(String nombre, String descripcion, String imagen, Integer valoracion, String denominacion, ArrayList<Comentario> listaComentarios) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.imagen = imagen;
         this.valoracion = valoracion;
         this.denominacion = denominacion;
-        listaComentarios.add(c);
+        this.listaComentarios = listaComentarios;
     }
 
     public Vino(String nombre, String descripcion, String imagen, Integer valoracion, String denominacion) {

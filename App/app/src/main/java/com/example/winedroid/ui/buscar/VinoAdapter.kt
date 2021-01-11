@@ -4,15 +4,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
 import com.example.winedroid.R
+import com.example.winedroid.ui.fichavino.FichaVinoFragment
 import com.example.winedroid.ui.fichavino.Vino
-import com.example.winedroid.ui.perfil.PerfilFragment
 import com.squareup.picasso.Picasso
 
 /**
@@ -35,9 +34,9 @@ class VinoAdapter(
         Picasso.get().load(item.imagen).resize(150,150).into(holder.ivImagen)
         holder.tvDescripcion.text = item.descripcion
         holder.rlRelative.setOnClickListener(View.OnClickListener {
-            val detalle = PerfilFragment()
+            val vv: FichaVinoFragment = FichaVinoFragment.newInstance(item)
             val transaction: FragmentTransaction = fm!!.beginTransaction()
-            transaction.replace(R.id.nav_host_fragment, detalle)
+            transaction.replace(R.id.nav_host_fragment, vv)
             transaction.addToBackStack(null)
             transaction.commit()
         })
