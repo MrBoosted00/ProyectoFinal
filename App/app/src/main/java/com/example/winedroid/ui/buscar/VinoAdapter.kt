@@ -1,21 +1,27 @@
 package com.example.winedroid.ui.buscar
 
-import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.RelativeLayout
 import android.widget.TextView
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import androidx.recyclerview.widget.RecyclerView
 import com.example.winedroid.R
-
-import com.example.winedroid.ui.buscar.dummy.DummyContent.DummyItem
+import com.example.winedroid.ui.fichavino.Vino
+import com.example.winedroid.ui.perfil.PerfilFragment
+import com.squareup.picasso.Picasso
 
 /**
  * [RecyclerView.Adapter] that can display a [DummyItem].
  * TODO: Replace the implementation with code for your data type.
  */
 class VinoAdapter(
-    private val values: List<DummyItem>
-) : RecyclerView.Adapter<VinoAdapter.ViewHolder>() {
+    private val values: List<Vino>,private val fm: FragmentManager
+ ): RecyclerView.Adapter<VinoAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -25,18 +31,28 @@ class VinoAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = values[position]
-        holder.idView.text = item.id
-        holder.contentView.text = item.content
+        holder.tvNombre.text = item.nombre
+        Picasso.get().load(item.imagen).resize(150,150).into(holder.ivImagen)
+        holder.tvDescripcion.text = item.descripcion
+        holder.rlRelative.setOnClickListener(View.OnClickListener {
+            val detalle = PerfilFragment()
+            val transaction: FragmentTransaction = fm!!.beginTransaction()
+            transaction.replace(R.id.nav_host_fragment, detalle)
+            transaction.addToBackStack(null)
+            transaction.commit()
+        })
     }
 
     override fun getItemCount(): Int = values.size
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val idView: TextView = view.findViewById(R.id.item_number)
-        val contentView: TextView = view.findViewById(R.id.content)
+        val tvNombre: TextView = view.findViewById(R.id.tvBuscarNombre)
+        val ivImagen: ImageView = view.findViewById(R.id.ivBuscarImagen)
+        val tvDescripcion: TextView = view.findViewById(R.id.tvBuscarDescripcion)
+        val rlRelative: RelativeLayout = view.findViewById(R.id.rlBuscarRelative)
 
         override fun toString(): String {
-            return super.toString() + " '" + contentView.text + "'"
+            return super.toString() + " '" + tvDescripcion.text + "'"
         }
     }
 }

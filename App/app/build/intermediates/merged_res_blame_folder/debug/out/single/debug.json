@@ -44,12 +44,12 @@
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-anydpi\\ic_menu_search.xml"
     },
     {
-        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_menu_logout.png.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xhdpi\\ic_menu_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu_logout.png.flat",

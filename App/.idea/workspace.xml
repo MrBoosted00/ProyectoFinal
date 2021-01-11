@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6314dc1f-255d-47bd-abed-90097846ad6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/fichavino/Comentario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/fichavino/Vino.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -22,22 +24,19 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/javaResources0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/MainActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/forgotpass/ForgotPasswordActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/forgotpass/ForgotPasswordActivity.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/home/HomeFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/home/HomeFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/login/LoginActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/login/LoginActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$Companion.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$Companion.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/EditarPerfilFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/PerfilFragment.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/perfil/PerfilFragment.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/register/RegisterActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/winedroid/ui/register/RegisterActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
@@ -57,6 +56,12 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
@@ -66,11 +71,12 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len" afterDir="false" />
@@ -94,25 +100,25 @@
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/META-INF/app_debug.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/MainActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/forgotpass/ForgotPasswordActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/forgotpass/ForgotPasswordActivity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/home/HomeFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/home/HomeFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/login/LoginActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/login/LoginActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment$subirImagenAFirebase$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/EditarPerfilFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/PerfilFragment.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/perfil/PerfilFragment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/register/RegisterActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/kotlin-classes/debug/com/example/winedroid/ui/register/RegisterActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/BuscarFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/BuscarFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/VinoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/VinoAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/dummy/DummyContent.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/fichavino/CrearVinoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/fichavino/CrearVinoFragment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_crear_vino.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_crear_vino.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_item.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610357650860</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="creada ficha de crear vino">
+      <created>1610361418528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610361418528</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -383,17 +396,18 @@
     <MESSAGE value="App casi terminada" />
     <MESSAGE value="Development" />
     <MESSAGE value="Development busqueda y ficha vino" />
-    <option name="LAST_COMMIT_MESSAGE" value="Development busqueda y ficha vino" />
+    <MESSAGE value="creada ficha de crear vino" />
+    <option name="LAST_COMMIT_MESSAGE" value="creada ficha de crear vino" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609537350070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609537350070" />
-    <state x="763" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1610295511309">
+    <state x="763" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1610370325510">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="763" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610295511309" />
+    <state x="763" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610370325510" />
     <state x="530" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1610196846330">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -426,86 +440,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="748" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610360049464" />
-    <state x="524" y="89" key="CommitChangelistDialog2" timestamp="1610357646107">
+    <state x="524" y="89" key="CommitChangelistDialog2" timestamp="1610361415958">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1396" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979696047" />
-    <state x="524" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610357646107" />
-    <state width="439" height="466" key="DebuggerActiveHint" timestamp="1610016095954">
+    <state x="524" y="89" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610361415958" />
+    <state width="439" height="466" key="DebuggerActiveHint" timestamp="1610371573184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610016095954" />
+    <state width="439" height="466" key="DebuggerActiveHint/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610371573184" />
     <state x="-1820" y="100" width="1720" height="840" key="DiffContextDialog" timestamp="1609979420676">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1820" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979420676" />
     <state x="100" y="100" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609627619056" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610296456340">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1610374494537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979419059" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610296456340" />
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom" timestamp="1610302951755">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374494537" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1610375442605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.0.center" timestamp="1610302951755">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610375442605" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1610375442605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.0.left" timestamp="1610302951755">
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610375442605" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1610375442605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.0.right" timestamp="1610302951755">
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610375442605" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1610375442605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.1.bottom" timestamp="1610302951756">
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610375442605" />
+    <state width="1876" height="281" key="GridCell.Tab.1.bottom" timestamp="1610374815086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951756" />
-    <state width="1876" height="281" key="GridCell.Tab.1.center" timestamp="1610302951755">
+    <state width="1876" height="281" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374815086" />
+    <state width="1876" height="281" key="GridCell.Tab.1.center" timestamp="1610374815086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.1.left" timestamp="1610302951755">
+    <state width="1876" height="281" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374815086" />
+    <state width="1876" height="281" key="GridCell.Tab.1.left" timestamp="1610374815085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
-    <state width="1876" height="281" key="GridCell.Tab.1.right" timestamp="1610302951755">
+    <state width="1876" height="281" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374815085" />
+    <state width="1876" height="281" key="GridCell.Tab.1.right" timestamp="1610374815086">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="281" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610302951755" />
+    <state width="1876" height="281" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374815086" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610357654838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-1368" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1609979712167" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610357654838" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610231416479">
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610366377462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610231416479" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610366377462" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1610231416479">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610231416479" />
-    <state x="616" y="242" key="run.anything.popup" timestamp="1610197129871">
+    <state x="616" y="242" key="run.anything.popup" timestamp="1610374720772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610197129871" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1609846195135">
+    <state x="616" y="242" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374720772" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1610374724430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609846195135" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610374724430" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/perfil/EditarPerfilFragment.kt</url>
-          <line>143</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/winedroid/ui/buscar/BuscarFragment.kt</url>
+          <line>57</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
