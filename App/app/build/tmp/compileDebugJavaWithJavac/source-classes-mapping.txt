@@ -1,4 +1,8 @@
 com/example/winedroid/BuildConfig.java
  com.example.winedroid.BuildConfig
+com/example/winedroid/ui/fichavino/Vino.java
+ com.example.winedroid.ui.fichavino.Vino
 com/example/winedroid/ui/perfil/Usuario.java
  com.example.winedroid.ui.perfil.Usuario
+com/example/winedroid/ui/fichavino/Comentario.java
+ com.example.winedroid.ui.fichavino.Comentario
