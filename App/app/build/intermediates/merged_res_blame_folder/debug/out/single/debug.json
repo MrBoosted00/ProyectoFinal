@@ -188,6 +188,10 @@
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_crear_vino.xml.flat",
+        "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\layout\\fragment_crear_vino.xml"
+    },
+    {
         "merged": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_menu_logout.png.flat",
         "source": "C:\\Users\\demon\\Documents\\Trabajo Final\\repo\\App\\app\\src\\main\\res\\drawable-xxhdpi\\ic_menu_logout.png"
     },
