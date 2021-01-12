@@ -4,7 +4,6 @@ import android.app.Activity
 import android.app.AlertDialog
 import android.content.ContentValues
 import android.content.Intent
-import android.media.Image
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
@@ -14,10 +13,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.example.winedroid.R
-import com.example.winedroid.ui.perfil.PerfilFragment
-import com.example.winedroid.ui.perfil.Usuario
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
@@ -149,7 +145,7 @@ class CrearVinoFragment : Fragment() {
     }
 
     private fun guardarVino(fotoUrl: String) {
-        val currentUserDb = dbReference.child(etNombre.text.toString())
+        val vinoDb = dbReference.child(etNombre.text.toString())
         comen = Comentario(
             FirebaseAuth.getInstance().currentUser!!.uid,
             etComentario.text.toString(),
@@ -164,7 +160,7 @@ class CrearVinoFragment : Fragment() {
             ArrayList()
         )
         vino!!.añadirComentario(comen)
-        currentUserDb.setValue(vino)
+        vinoDb.setValue(vino)
         Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()
     }
 
