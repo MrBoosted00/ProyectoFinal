@@ -65,7 +65,7 @@
                 android:orientation="horizontal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintHorizontal_bias="0.478"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvVisualizarDescripcion"
                 app:layout_constraintVertical_bias="0.0"
@@ -82,11 +82,11 @@
 
                 <RatingBar
                     android:id="@+id/rbVisualizarRating"
-                    style="@style/Widget.AppCompat.RatingBar.Indicator"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0"
                     android:numStars="5"
+                    android:progressTint="#5E2129"
                     android:rating="0"
                     android:stepSize="1.0" />
             </LinearLayout>
@@ -105,6 +105,35 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
                 app:layout_constraintVertical_bias="0.0" />
 
+            <EditText
+                android:id="@+id/etVisualizarComentario"
+                android:layout_width="320dp"
+                android:layout_height="157dp"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="#5E2129"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Comentario"
+                android:inputType="textMultiLine"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.483"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvVisualizarDenominacion"
+                app:layout_constraintVertical_bias="0.084" />
+
+            <Button
+                android:id="@+id/btnVisualizarComentar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="Comentar"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etVisualizarComentario"
+                app:layout_constraintVertical_bias="0.0" />
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvVisualizarComentario"
                 android:name="com.example.winedroid.ui.buscar.BuscarFragment"
@@ -115,7 +144,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvVisualizarDenominacion"
+                app:layout_constraintTop_toBottomOf="@+id/btnVisualizarComentar"
                 tools:context=".ui.buscar.BuscarFragment"
                 tools:listitem="@layout/fragment_item" />
         </androidx.constraintlayout.widget.ConstraintLayout>

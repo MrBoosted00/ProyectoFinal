@@ -143,7 +143,6 @@ class CrearVinoFragment : Fragment() {
                 guardarVino(it.toString())
             }
         }
-
     }
 
     private fun guardarVino(fotoUrl: String) {

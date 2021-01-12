@@ -79,53 +79,9 @@ class BuscarFragment : Fragment() {
                                 VinoAdapter(lista_vinos,fm!!)
                         }
                     }
-
-
                 }
-
-
             }
         })
         return root
     }
-
-   /* private fun ver_comentarios(lista_id: ArrayList<String>) {
-        for (id_lista in lista_id) {
-            var refrencia = databaseReferenceUsuarios.child(id_lista.toString())
-            refrencia.addValueEventListener(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
-                    //public Contacto(String nickName, String fotoPerfil, String idUsuario) {
-                    val nickname = snapshot.child("nombre").value.toString()
-                    val vino = Vino(
-                        nickname,
-                        snapshot.child("descripcion").value.toString(),
-                        snapshot.child("imagen").value.toString(),
-                        snapshot.child("valoracion").value.toString().toInt(),
-                        snapshot.child("denominacion").value.toString()
-                    )
-                    lista_vinos.add(vino)
-
-                    if (lista_id.size == lista_vinos.size) {
-                        if (root is RecyclerView) {
-                            with(root) {
-                                (root as RecyclerView).layoutManager = when {
-                                    columnCount <= 1 -> LinearLayoutManager(context)
-                                    else -> GridLayoutManager(context, columnCount)
-                                }
-                                (root as RecyclerView).adapter =
-                                    VinoAdapter(lista_vinos)
-                            }
-                        }
-                    }
-                }
-
-                override fun onCancelled(error: DatabaseError) {
-                    TODO("Not yet implemented")
-                }
-
-
-            })
-        }
-
-    }*/
 }
