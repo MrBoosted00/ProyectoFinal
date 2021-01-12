@@ -21,9 +21,9 @@ class ForgotPasswordActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password)
-        initialise()
+        iniciarVista()
     }
-    private fun initialise() {
+    private fun iniciarVista() {
         etEmail = findViewById<View>(R.id.etEmail) as EditText
         btnSend = findViewById<View>(R.id.btnSend) as Button
         mAuth = FirebaseAuth.getInstance()

@@ -15,16 +15,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [FichaVinoFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class FichaVinoFragment : Fragment() {
     private var columnCount = 1
 
@@ -38,9 +28,9 @@ class FichaVinoFragment : Fragment() {
     private lateinit var database: FirebaseDatabase
     private lateinit var dbReference: DatabaseReference
     private lateinit var rvComentario: RecyclerView
-    private lateinit var etComentario : EditText
-    private lateinit var btnComentar : Button
-    private var comentario : Comentario? = null
+    private lateinit var etComentario: EditText
+    private lateinit var btnComentar: Button
+    private var comentario: Comentario? = null
     private lateinit var listaComentario: ArrayList<Comentario>
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -62,7 +52,7 @@ class FichaVinoFragment : Fragment() {
     }
 
     @SuppressLint("SetTextI18n")
-    fun iniciarVista(root : View){
+    fun iniciarVista(root: View) {
         tvNombre = root.findViewById(R.id.tvVisualizarNombre)
         ivImagen = root.findViewById(R.id.ivVisualizarImagen)
         tvDescripcion = root.findViewById(R.id.tvVisualizarDescripcion)
@@ -89,40 +79,44 @@ class FichaVinoFragment : Fragment() {
 
     private fun recogerComentarios() {
 
-            val refUser = dbReference.child(vino!!.nombre).child("listaComentarios")
-            refUser.addValueEventListener(object : ValueEventListener {
-                override fun onDataChange(snapshot: DataSnapshot) {
-                    listaComentario = ArrayList()
-                    snapshot.children.forEach(){
-                        val uid = it.child("uid").value.toString()
-                        val texto = it.child("comentario").value.toString()
-                        val valoracion = it.child("valoracion").value.toString()
-                        comentario = Comentario(uid, texto, valoracion.toInt())
-                        listaComentario.add(comentario!!)
-                    }
-                    recogerValoraciones(listaComentario)
-                    (rvComentario as RecyclerView).adapter =
-                        ComentarioAdapter(listaComentario)
+        val refUser = dbReference.child(vino!!.nombre).child("listaComentarios")
+        refUser.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                listaComentario = ArrayList()
+                snapshot.children.forEach() {
+                    val uid = it.child("uid").value.toString()
+                    val texto = it.child("comentario").value.toString()
+                    val valoracion = it.child("valoracion").value.toString()
+                    comentario = Comentario(uid, texto, valoracion.toInt())
+                    listaComentario.add(comentario!!)
                 }
+                recogerValoraciones(listaComentario)
+                (rvComentario as RecyclerView).adapter =
+                    ComentarioAdapter(listaComentario)
+            }
 
-                override fun onCancelled(error: DatabaseError) {
-                }
-            })
+            override fun onCancelled(error: DatabaseError) {
+            }
+        })
     }
 
-    fun guardarComentario(){
-        comentario = Comentario(FirebaseAuth.getInstance().currentUser!!.uid,etComentario.text.toString(),rbRating.rating.toInt())
+    fun guardarComentario() {
+        comentario = Comentario(
+            FirebaseAuth.getInstance().currentUser!!.uid,
+            etComentario.text.toString(),
+            rbRating.rating.toInt()
+        )
         vino?.añadirComentario(comentario)
         val refUser = dbReference.child(vino!!.nombre).child("listaComentarios")
         refUser.setValue(vino!!.listaComentarios)
         Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()
     }
 
-    private fun recogerValoraciones(lista : ArrayList<Comentario>){
+    private fun recogerValoraciones(lista: ArrayList<Comentario>) {
         var valoraciones = 0
-     for (i in 0 until lista.size){
-         valoraciones += listaComentario[i].valoracion
-     }
+        for (i in 0 until lista.size) {
+            valoraciones += listaComentario[i].valoracion
+        }
         val valoracionVino = valoraciones.div(lista.size)
         rbRating.rating = valoracionVino.toFloat()
         val refUser = dbReference.child(vino!!.nombre).child("valoracion")
