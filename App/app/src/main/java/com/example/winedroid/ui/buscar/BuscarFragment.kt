@@ -80,17 +80,15 @@ class BuscarFragment : Fragment() {
                         )
                         listaVinos.add(vino)
                     }
-                    if (recyclerView is RecyclerView) {
-                        with(recyclerView) {
-                            (recyclerView as RecyclerView).layoutManager = when {
-                                columnCount <= 1 -> LinearLayoutManager(context)
-                                else -> GridLayoutManager(context, columnCount)
-                            }
-                            // Lo cargamos
-                            val fm = fragmentManager
-                            (recyclerView as RecyclerView).adapter =
-                                VinoAdapter(listaVinos, fm!!)
+                    with(recyclerView) {
+                        (recyclerView as RecyclerView).layoutManager = when {
+                            columnCount <= 1 -> LinearLayoutManager(context)
+                            else -> GridLayoutManager(context, columnCount)
                         }
+                        // Lo cargamos
+                        val fm = fragmentManager
+                        (recyclerView as RecyclerView).adapter =
+                            VinoAdapter(listaVinos, fm!!)
                     }
                 }
             }
@@ -116,17 +114,15 @@ class BuscarFragment : Fragment() {
                         it.child("listaComentarios").value as java.util.ArrayList<Comentario>?
                     )
                     listaVinos.add(vino)
-                    if (recyclerView is RecyclerView) {
-                        with(recyclerView) {
-                            (recyclerView as RecyclerView).layoutManager = when {
-                                columnCount <= 1 -> LinearLayoutManager(context)
-                                else -> GridLayoutManager(context, columnCount)
-                            }
-                            // Lo cargamos
-                            val fm = fragmentManager
-                            (recyclerView as RecyclerView).adapter =
-                                VinoAdapter(listaVinos, fm!!)
+                    with(recyclerView) {
+                        (recyclerView as RecyclerView).layoutManager = when {
+                            columnCount <= 1 -> LinearLayoutManager(context)
+                            else -> GridLayoutManager(context, columnCount)
                         }
+                        // Lo cargamos
+                        val fm = fragmentManager
+                        (recyclerView as RecyclerView).adapter =
+                            VinoAdapter(listaVinos, fm!!)
                     }
                 }
             }
