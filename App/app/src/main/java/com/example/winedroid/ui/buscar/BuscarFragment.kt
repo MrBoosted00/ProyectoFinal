@@ -25,22 +25,19 @@ class BuscarFragment : Fragment() {
 
     private lateinit var database: FirebaseDatabase
     private lateinit var databaseReference: DatabaseReference
-    private lateinit var databaseReferenceUsuarios: DatabaseReference
-    private lateinit var txtnom: TextView
-    lateinit var listaNombres: ArrayList<String>
     lateinit var lista_vinos: ArrayList<Vino>
     lateinit var root: View
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         root = inflater.inflate(R.layout.fragment_buscar_list, container, false)
-        listaNombres = ArrayList()
+        iniciarVista(root)
+        return root
+    }
+
+    private fun iniciarVista(root: View) {
         lista_vinos = ArrayList()
         database =
             FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
@@ -76,12 +73,11 @@ class BuscarFragment : Fragment() {
                             // Lo cargamos
                             val fm = fragmentManager
                             (root as RecyclerView).adapter =
-                                VinoAdapter(lista_vinos,fm!!)
+                                VinoAdapter(lista_vinos, fm!!)
                         }
                     }
                 }
             }
         })
-        return root
     }
 }

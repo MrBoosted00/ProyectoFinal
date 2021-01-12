@@ -141,9 +141,8 @@ class EditarPerfilFragment : Fragment() {
         }
 
         if (requestCode == CAMARA && resultCode == Activity.RESULT_OK && data != null) {
-            val bitmap = MediaStore.Images.Media.getBitmap(context?.contentResolver, photoUri)
 
-            ivImagen.setImageBitmap(bitmap)
+            ivImagen.setImageURI(photoUri)
         }
     }
 

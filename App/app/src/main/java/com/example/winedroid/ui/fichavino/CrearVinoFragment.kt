@@ -37,7 +37,7 @@ class CrearVinoFragment : Fragment() {
     private lateinit var etComentario: EditText
     private lateinit var tvValoracion: TextView
     private lateinit var rbRating: RatingBar
-    private lateinit var btnGuardar : Button
+    private lateinit var btnGuardar: Button
     private var valoracion: Int = 0
     private var photoUri: Uri? = null
     private val GALERIA = 50
@@ -51,6 +51,11 @@ class CrearVinoFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_crear_vino, container, false)
+        iniciarVista(root)
+        return root
+    }
+
+    private fun iniciarVista(root: View) {
         ivImagen = root.findViewById(R.id.ivCrearImagen)
         etNombre = root.findViewById(R.id.etCrearNombre)
         etDescripcion = root.findViewById(R.id.etCrearDescripcion)
@@ -76,8 +81,6 @@ class CrearVinoFragment : Fragment() {
         btnGuardar.setOnClickListener {
             subirImagenAFirebase()
         }
-
-        return root
     }
 
 
@@ -147,8 +150,19 @@ class CrearVinoFragment : Fragment() {
 
     private fun guardarVino(fotoUrl: String) {
         val currentUserDb = dbReference.child(etNombre.text.toString())
-        comen = Comentario(FirebaseAuth.getInstance().currentUser!!.uid,etComentario.text.toString(),valoracion)
-        vino = Vino(etNombre.text.toString(), etDescripcion.text.toString(), fotoUrl,valoracion,etDenominacion.text.toString(),ArrayList())
+        comen = Comentario(
+            FirebaseAuth.getInstance().currentUser!!.uid,
+            etComentario.text.toString(),
+            valoracion
+        )
+        vino = Vino(
+            etNombre.text.toString(),
+            etDescripcion.text.toString(),
+            fotoUrl,
+            valoracion,
+            etDenominacion.text.toString(),
+            ArrayList()
+        )
         vino!!.añadirComentario(comen)
         currentUserDb.setValue(vino)
         Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()
