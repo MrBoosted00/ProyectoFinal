@@ -12,7 +12,7 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <img class="card-img-top" src="/images/login.JPG"> 
+    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/busqueda_y_ficha.jpg"> 
     <img class="card-img-top" src="/images/registro.JPG">
     <img class="card-img-top" src="/images/recupass.JPG">
     <img class="card-img-top" src="/images/home.JPG">
