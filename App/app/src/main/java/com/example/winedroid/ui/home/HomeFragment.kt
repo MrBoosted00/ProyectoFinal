@@ -10,32 +10,84 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.example.winedroid.R
+import com.example.winedroid.ui.buscar.HomeAdapter
+import com.example.winedroid.ui.buscar.VinoAdapter
+import com.example.winedroid.ui.fichavino.Comentario
+import com.example.winedroid.ui.fichavino.Vino
+import com.google.firebase.database.*
 import com.karumi.dexter.Dexter
 import com.karumi.dexter.MultiplePermissionsReport
 import com.karumi.dexter.PermissionToken
 import com.karumi.dexter.listener.DexterError
 import com.karumi.dexter.listener.PermissionRequestErrorListener
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
+import java.util.ArrayList
 
 class HomeFragment : Fragment() {
 
-    private lateinit var homeViewModel: HomeViewModel
+    private var columnCount = 1
+    private lateinit var database: FirebaseDatabase
+    private lateinit var databaseReference: DatabaseReference
+    lateinit var lista_vinos: ArrayList<Vino>
+    lateinit var root: View
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        homeViewModel =
-            ViewModelProvider(this).get(HomeViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_home, container, false)
-        val textView: TextView = root.findViewById(R.id.text_home)
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         pedirMultiplesPermisos()
+        iniciarVista(root)
+
         return root
+    }
+
+    private fun iniciarVista(root : View){
+        lista_vinos = ArrayList()
+        database =
+            FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
+
+        databaseReference = database.reference.child("Vinos")
+
+        databaseReference.addValueEventListener(object : ValueEventListener {
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+
+            override fun onDataChange(snapshot: DataSnapshot) {
+                snapshot.children.forEach() {
+                    val nickname = it.child("nombre").value.toString()
+                    val vino = Vino(
+                        nickname,
+                        it.child("descripcion").value.toString(),
+                        it.child("imagen").value.toString(),
+                        it.child("valoracion").value.toString().toInt(),
+                        it.child("denominacion").value.toString(),
+                        it.child("listaComentarios").value as ArrayList<Comentario>?
+                    )
+                    lista_vinos.add(vino)
+
+                    if (root is RecyclerView) {
+                        with(root) {
+                            (root as RecyclerView).layoutManager = when {
+                                columnCount <= 1 -> LinearLayoutManager(context)
+                                else -> GridLayoutManager(context, columnCount)
+                            }
+                            // Lo cargamos
+                            val fm = fragmentManager
+                            (root as RecyclerView).adapter =
+                                HomeAdapter(lista_vinos,fm!!)
+                        }
+                    }
+                }
+            }
+        })
     }
 
     private fun pedirMultiplesPermisos() {

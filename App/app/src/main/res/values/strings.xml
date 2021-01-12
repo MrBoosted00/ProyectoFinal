@@ -33,5 +33,6 @@
     <string name="foto_predeterminada">https://firebasestorage.googleapis.com/v0/b/winedroid-ca058.appspot.com/o/imagenes%2FfotoPredeterminada.png?alt=media&amp;token=22b01e6b-a2a1-4043-9120-86f8563787e7</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="valoracion">Valoracion</string>
 
 </resources>

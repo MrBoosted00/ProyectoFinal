@@ -46,7 +46,6 @@ class LoginActivity : AppCompatActivity() {
 
     //Creamos nuestra variable de autenticación firebase
     private lateinit var mAuth: FirebaseAuth
-    private lateinit var user : FirebaseUser
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

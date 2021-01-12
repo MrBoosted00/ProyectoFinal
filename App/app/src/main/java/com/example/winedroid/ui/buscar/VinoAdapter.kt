@@ -15,7 +15,6 @@ import com.example.winedroid.ui.fichavino.Vino
 import com.squareup.picasso.Picasso
 
 /**
- * [RecyclerView.Adapter] that can display a [DummyItem].
  * TODO: Replace the implementation with code for your data type.
  */
 class VinoAdapter(
