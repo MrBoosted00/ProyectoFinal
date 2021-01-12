@@ -12,13 +12,13 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/login.jpg"> 
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/registro.JPG">
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/recupass.JPG">
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/home.JPG">
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/busqueda_y_ficha.JPG">
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/perfil.JPG">
-    <img class="card-img-top" src="https://github.com/MrBoosted00/ProyectoFinal/blob/master/docs/images/editar_perfil_crear_vino.JPG"> 
+    <img class="card-img-top" src="/images/login.jpg"> 
+    <img class="card-img-top" src="/images/registro.jpg">
+    <img class="card-img-top" src="/images/recupass.jpg">
+    <img class="card-img-top" src="/images/home.jpg">
+    <img class="card-img-top" src="/images/busqueda_y_ficha.jpg">
+    <img class="card-img-top" src="/images/perfil.jpg">
+    <img class="card-img-top" src="/images/editar_perfil_crear_vino.jpg"> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
