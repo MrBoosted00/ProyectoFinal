@@ -12,9 +12,9 @@
   </head>
   <body>
     <h1>Hello, world!</h1>
-    <img class="card-img-top" src="/images/login.jpg"> 
-    <img class="card-img-top" src="/images/registro.jpg">
-    <img class="card-img-top" src="/images/recupass.jpg">
+    <img class="card-img-top" src="./images/login.jpg"> 
+    <img class="card-img-top" src="./images/registro.jpg">
+    <img class="card-img-top" src="./images/recupass.jpg">
     <img class="card-img-top" src="/images/home.jpg">
     <img class="card-img-top" src="/images/busqueda_y_ficha.jpg">
     <img class="card-img-top" src="/images/perfil.jpg">
