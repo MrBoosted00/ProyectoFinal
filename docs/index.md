@@ -11,12 +11,12 @@
     <title>Manual de usuario Winedroid</title>
   </head>
   <body>
-   <img class="card-img-top" src="./images/login.JPG"> 
-   <img class="card-img-top" src="./images/registro.JPG">
-   <img class="card-img-top" src="./images/recupass.JPG">
-   <img class="card-img-top" src="./images/home.JPG">
-   <img class="card-img-top" src="./images/busqueda_y_ficha.JPG">
-   <img class="card-img-top" src="./images/perfil.JPG">
-   <img class="card-img-top" src="./images/editar_perfil_crear_vino.JPG"> 
+   <img class="card-img-top" src="/images/login.JPG"> 
+   <img class="card-img-top" src="/images/registro.JPG">
+   <img class="card-img-top" src="/images/recupass.JPG">
+   <img class="card-img-top" src="/images/home.JPG">
+   <img class="card-img-top" src="/images/busqueda_y_ficha.JPG">
+   <img class="card-img-top" src="/images/perfil.JPG">
+   <img class="card-img-top" src="/images/editar_perfil_crear_vino.JPG"> 
   </body>
 </html>
