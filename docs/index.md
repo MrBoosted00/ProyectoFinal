@@ -15,10 +15,10 @@
     <img class="card-img-top" src="./images/login.jpg"> 
     <img class="card-img-top" src="./images/registro.jpg">
     <img class="card-img-top" src="./images/recupass.jpg">
-    <img class="card-img-top" src="/images/home.jpg">
-    <img class="card-img-top" src="/images/busqueda_y_ficha.jpg">
-    <img class="card-img-top" src="/images/perfil.jpg">
-    <img class="card-img-top" src="/images/editar_perfil_crear_vino.jpg"> 
+    <img class="card-img-top" src="./images/home.jpg">
+    <img class="card-img-top" src="./images/busqueda_y_ficha.jpg">
+    <img class="card-img-top" src="./images/perfil.jpg">
+    <img class="card-img-top" src="./images/editar_perfil_crear_vino.jpg"> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
