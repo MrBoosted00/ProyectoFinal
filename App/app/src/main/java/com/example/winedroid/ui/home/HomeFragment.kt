@@ -21,6 +21,7 @@ import com.karumi.dexter.listener.DexterError
 import com.karumi.dexter.listener.PermissionRequestErrorListener
 import com.karumi.dexter.listener.multi.MultiplePermissionsListener
 import java.util.*
+import kotlin.collections.ArrayList
 
 class HomeFragment : Fragment() {
 
@@ -44,16 +45,15 @@ class HomeFragment : Fragment() {
     }
 
     private fun iniciarVista(root: View) {
+        lista_vinos = ArrayList()
         database =
             FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
 
         databaseReference = database.reference.child("Vinos")
-
         databaseReference.addValueEventListener(object : ValueEventListener {
             override fun onCancelled(error: DatabaseError) {
                 TODO("Not yet implemented")
             }
-
             override fun onDataChange(snapshot: DataSnapshot) {
                 lista_vinos = ArrayList()
                 snapshot.children.forEach() {
@@ -72,21 +72,36 @@ class HomeFragment : Fragment() {
                 //ordenamos el array de los vinos recogidos
                 lista_vinos.sortWith(Comparator { v1, v2 -> v2.valoracion.compareTo(v1.valoracion)
                 })
-
-                if (root is RecyclerView) {
-                    with(root) {
-                        (root as RecyclerView).layoutManager = when {
-                            columnCount <= 1 -> LinearLayoutManager(context)
-                            else -> GridLayoutManager(context, columnCount)
+                try {
+                    if (root is RecyclerView) {
+                        with(root) {
+                            (root as RecyclerView).layoutManager = when {
+                                columnCount <= 1 -> LinearLayoutManager(context)
+                                else -> GridLayoutManager(context, columnCount)
+                            }
+                            // Lo cargamos
+                            val fm = fragmentManager
+                            (root as RecyclerView).adapter =
+                                HomeAdapter(lista_vinos, fm!!)
                         }
-                        // Lo cargamos
-                        val fm = fragmentManager
-                        (root as RecyclerView).adapter =
-                            HomeAdapter(lista_vinos, fm!!)
                     }
+                }catch(e:Exception){
+
                 }
             }
         })
+        if (root is RecyclerView) {
+            with(root) {
+                (root as RecyclerView).layoutManager = when {
+                    columnCount <= 1 -> LinearLayoutManager(context)
+                    else -> GridLayoutManager(context, columnCount)
+                }
+                // Lo cargamos
+                val fm = fragmentManager
+                (root as RecyclerView).adapter =
+                    HomeAdapter(lista_vinos, fm!!)
+            }
+        }
     }
 
     private fun pedirMultiplesPermisos() {
