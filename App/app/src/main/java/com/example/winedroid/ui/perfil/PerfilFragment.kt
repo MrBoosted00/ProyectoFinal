@@ -60,9 +60,6 @@ class PerfilFragment : Fragment() {
             }
         })
 
-
-
-
         btnEditarPerfil.setOnClickListener(View.OnClickListener {
             editarPerfil(root)
         })
