@@ -35,7 +35,7 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
+        root = inflater.inflate(R.layout.fragment_home, container, false)
 
         pedirMultiplesPermisos()
         iniciarVista(root)
@@ -44,7 +44,6 @@ class HomeFragment : Fragment() {
     }
 
     private fun iniciarVista(root: View) {
-        lista_vinos = ArrayList()
         database =
             FirebaseDatabase.getInstance("https://winedroid-ca058-default-rtdb.europe-west1.firebasedatabase.app/")
 
@@ -56,7 +55,9 @@ class HomeFragment : Fragment() {
             }
 
             override fun onDataChange(snapshot: DataSnapshot) {
+                lista_vinos = ArrayList()
                 snapshot.children.forEach() {
+
                     val nickname = it.child("nombre").value.toString()
                     val vino = Vino(
                         nickname,

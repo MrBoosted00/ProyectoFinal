@@ -13,6 +13,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.example.winedroid.R
+import com.example.winedroid.ui.home.HomeFragment
+import com.example.winedroid.ui.perfil.EditarPerfilFragment
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
@@ -162,6 +164,12 @@ class CrearVinoFragment : Fragment() {
         vino!!.añadirComentario(comen)
         vinoDb.setValue(vino)
         Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()
+        val fm = fragmentManager
+        val hf = HomeFragment()
+        val transaction = fm!!.beginTransaction()
+        transaction.replace(R.id.nav_host_fragment, hf)
+        transaction.addToBackStack(null)
+        transaction.commit()
     }
 
 }
