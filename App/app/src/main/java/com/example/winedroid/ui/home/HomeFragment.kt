@@ -2,6 +2,7 @@ package com.example.winedroid.ui.home
 
 import android.Manifest
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -86,7 +87,7 @@ class HomeFragment : Fragment() {
                         }
                     }
                 }catch(e:Exception){
-
+                    Log.e("Error cargar lista","Error al cargar la lista")
                 }
             }
         })

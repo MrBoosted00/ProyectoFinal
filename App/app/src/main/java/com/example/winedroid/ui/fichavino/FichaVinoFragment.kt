@@ -109,7 +109,8 @@ class FichaVinoFragment : Fragment() {
         vino?.añadirComentario(comentario)
         val refUser = dbReference.child(vino!!.nombre).child("listaComentarios")
         refUser.setValue(vino!!.listaComentarios)
-        Toast.makeText(activity?.baseContext, "Cambios Guardados", Toast.LENGTH_SHORT).show()
+        etComentario.setText("")
+        Toast.makeText(activity?.baseContext, "Comentario guardado", Toast.LENGTH_SHORT).show()
     }
 
     private fun recogerValoraciones(lista: ArrayList<Comentario>) {

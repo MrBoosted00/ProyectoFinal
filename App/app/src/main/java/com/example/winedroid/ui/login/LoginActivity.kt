@@ -156,7 +156,7 @@ class LoginActivity : AppCompatActivity() {
             } catch (e: ApiException) {
                 // sino le avisamos el usuairo que orcurrio un problema
                 Toast.makeText(
-                    this, "hola amigo",
+                    this, "Error al cargar el usuario",
                     Toast.LENGTH_SHORT
                 ).show()
             }
